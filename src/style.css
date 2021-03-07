@@ -1,0 +1,174 @@
+:root {
+
+--headline-color: black;
+--subhead-color: dimgray;
+--primary-font: 'Noto Sans SC', sans-serif;
+--button-font:lineto-circular-cyr-pr-bold, Arial, Helvetica, sans-serif;
+--background-color: #ebebeb71; 
+}
+
+
+.profile-img {
+margin-top: 30px;
+border-radius: 3px;
+}
+
+body {
+text-align: center;
+font-family: var(--primary-font);
+}
+
+h1 {
+font-family: var(--primary-font);
+}
+
+h2{
+font-family: var(--primary-font);
+font-weight: lighter;
+color: var(--subhead-color);
+}
+
+h3{
+font-family: var(--primary-font);
+font-weight: lighter;
+color: var(--subhead-color);
+}
+
+.box-home {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.home-description {
+width: 750px;
+display: block;
+margin: 0 auto;
+padding-bottom: 30px;
+}
+
+.background {
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-color: var(--background-color);
+padding: 40px;
+margin-top: 20px;
+}
+
+.button {
+flex:1;
+max-width: 100px;
+text-decoration: none;
+border: 1px solid black;
+color: white;
+background-color: black;
+font-family: var(--button-font);
+padding:18px 30px;
+text-align: center;
+margin-left: 10px;
+margin-right:10px;
+border-radius: 3px;
+
+}
+
+.button:hover {
+border: 1px solid black;
+color: black;
+background-color: white;
+cursor: pointer;
+transition: all 50ms ease-in-out;
+
+}
+
+
+
+.social-icon {
+margin-top: 20px;
+text-decoration: none;
+color: black;
+}
+
+.footer {
+margin-top:20px;
+display: block;
+font-family: monospace;
+color: rgba(105, 105, 105, 0.575);
+font-size: 12px;
+}
+
+.container-about {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.box-job {
+flex:1;
+display: flex;
+flex-direction: column;
+max-width: 600px;
+margin: 10px;
+border: 5px solid var(--background-color);
+border-radius: 3px;
+}
+
+.logo {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top:0px;
+margin-bottom:-20px;
+
+
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-copy {
+display: flex;
+flex:1;
+flex-direction: column;
+padding-top: 10px;
+padding-bottom:10px;
+justify-content: center;
+padding:10px;
+
+}
+
+
+.footer-about {
+margin-top: 30px;
+
+}
+
+.row-logo {
+display: flex;
+flex-direction: row;
+flex-basis: 100%;
+margin-right:20px;}
+
+
+.l4y-logo, .dis-logo, .shinola-logo,.th-logo, .zg-logo, .santoni-logo, .ck-logo, .urb-logo{
+max-width: 150px ;
+max-height: 150px;
+}
+
+.role {
+font-weight: bolder;
+font-size: larger;
+}
+
+.contact-button {
+margin:30px;
+}
+.logo-project {
+margin-top:20px;}
+
+.shecodes {
+margin-top: 50px;
+margin-bottom: 50px;
+
+}
